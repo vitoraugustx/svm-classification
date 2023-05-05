@@ -42,8 +42,8 @@ def plot_max_margin(k, x_data, y_data):
 
 x_train, x_test, y_train, y_test = data_provider.get_data(numpy=True)
 
-plot = plot_max_margin('linear', x_test, y_test)
-plot = plot_max_margin('rbf', x_test, y_test)
-plot = plot_max_margin('poly', x_test, y_test)
+plot = plot_max_margin('linear', x_train, y_train)
+plot = plot_max_margin('rbf', x_train, y_train)
+plot = plot_max_margin('poly', x_train, y_train)
 
 
